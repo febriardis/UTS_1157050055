@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="800dp"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".DetailMatchFragment">
@@ -48,15 +48,14 @@
                     <ImageView
                         android:id="@+id/logoClub1"
                         android:layout_width="45dp"
-                        android:layout_height="45dp"
-                        android:layout_margin="4dp"
+                        android:layout_height="match_parent"
                         android:src="@drawable/persibbandung"
-                        android:layout_marginRight="5dp"/>
+                        android:layout_marginLeft="6dp"/>
                     <TextView
                         android:id="@+id/nmClub1"
                         android:layout_width="240dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="6dp"
+                        android:layout_margin="3dp"
                         android:text="Persib Bandung"
                         android:textSize="30sp"/>
                     <LinearLayout
@@ -95,15 +94,14 @@
                     <ImageView
                         android:id="@+id/logoClub2"
                         android:layout_width="45dp"
-                        android:layout_height="45dp"
-                        android:layout_margin="4dp"
+                        android:layout_height="match_parent"
                         android:src="@drawable/sriwijayafc"
-                        android:layout_marginRight="5dp"/>
+                        android:layout_marginLeft="6dp"/>
                     <TextView
                         android:id="@+id/nmClub2"
                         android:layout_width="240dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="6dp"
+                        android:layout_margin="3dp"
                         android:text="Sriwijaya FC"
                         android:textSize="30sp"/>
                     <RelativeLayout

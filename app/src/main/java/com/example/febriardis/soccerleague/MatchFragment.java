@@ -39,12 +39,12 @@ public class MatchFragment extends Fragment {
         matchList = new ArrayList<>();
         matchList.add(new Match(R.drawable.perselalamongan, " Persela Lamongan", 3,R.drawable.sriwijayafc, "Sriwijaya FC", 0));
         matchList.add(new Match(R.drawable.bhayangkarafc, " Bhayangkara Fc", 1,R.drawable.persibbandung, "Persib Bandung", 2));
-        matchList.add(new Match(R.drawable.baliunited, "Bali United", 2,R.drawable.maduraunited, "Madura United", 0));
+        matchList.add(new Match(R.drawable.baliunited, "Bali United", 5,R.drawable.maduraunited, "Madura United", 0));
         matchList.add(new Match(R.drawable.perspura, "Persipura Jayapura", 2,R.drawable.persijajakarta, "Persija Jakarta", 1));
         matchList.add(new Match(R.drawable.aremafc, "Arema Fc", 3,R.drawable.sriwijayafc, "Sriwijaya", 4));
         matchList.add(new Match(R.drawable.persebaya, "Persebaya", 0,R.drawable.perspura, "Persipura", 0));
         matchList.add(new Match(R.drawable.perseru, "Perseru", 2,R.drawable.psms, "PSMS", 1));
-        matchList.add(new Match(R.drawable.pstira, "PS Tira", 2,R.drawable.bhayangkarafc, "Bhayangkara FC", 0));
+        matchList.add(new Match(R.drawable.pstira, "PS Tira", 1,R.drawable.bhayangkarafc, "Bhayangkara FC", 0));
 
         matchAdapter = new MatchAdapter(this.getContext(),matchList);
         recyclerView2.setAdapter(matchAdapter);
